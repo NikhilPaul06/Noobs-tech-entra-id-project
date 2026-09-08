@@ -1,0 +1,21 @@
+# Secrets / credentials
+.env
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+credentials.json
+secrets.json
+
+# Terraform state if future Terraform is added
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
